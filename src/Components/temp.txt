@@ -1,0 +1,19 @@
+
+.cont4Buttons {
+    width: 75%;
+    height: 25vh;
+    text-align: center;
+    margin: auto;
+    overflow-y: auto;
+}
+
+.btn {
+    height: 7vh;
+    width: 35vw;
+    font-size: 1rem;
+    color: #ED217C;
+    background-color: #FFE2D1;
+    margin-top: 1vw;
+    border-radius: 6px;
+    text-align: center;
+}

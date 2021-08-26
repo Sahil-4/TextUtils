@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+
+.headingname {
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 1vh;
+    margin-bottom: 2vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.textinputbox {
+    width: 90vw;
+    height: 30vh;
+    font-size: 1.5rem;
+    color: #ED217C;
+    background-color: #FFE2D1;
+    margin-left: 5vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.parentCont4Buttons {
+    width: 75vw;
+    height: 25vh;
+    display: inline-block;
+    overflow-y: scroll;
+    margin-left: 12vw;
+    margin-top: 2vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.parentCont4Buttons::-webkit-scrollbar {
+    display: none;
 }
 
-.App-link {
-  color: #61dafb;
+.childCont4Buttons1, .childCont4Buttons2 {
+    width: 50%;
+    float: left;
+    display: inline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.childCont4Buttons2 {
+    float: right;
+}
+
+.btn {
+    height: 7vh;
+    width: 35vw;
+    font-size: 1.5rem;
+    color: #ED217C;
+    background-color: #FFE2D1;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.summarybox {
+    width: 100vw;
+    height: 30vh;
+    font-size: 1.5rem;
+    margin-top: 1vh;
+    position: fixed;
+    bottom: 0;
+}
+
+.txtSums {
+    display: block;
 }
