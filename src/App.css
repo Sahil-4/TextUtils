@@ -17,7 +17,7 @@
 
 .parentCont4Buttons {
     width: 75vw;
-    height: 25vh;
+    /* height: 35vh; */
     display: inline-block;
     overflow-y: scroll;
     margin-left: 12vw;
@@ -53,9 +53,11 @@
 
 .summarybox {
     width: 100vw;
-    height: 30vh;
+    display: block;
+    background-color: #ED217C;
     font-size: 1.5rem;
     margin-top: 1vh;
+    padding-bottom: 5vh;
     position: fixed;
     bottom: 0;
 }

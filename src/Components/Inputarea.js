@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Inputarea() {
+export default function Inputarea(props) {
     return (
         <>
-        <textarea className="textinputbox"></textarea>
+        <textarea className="textinputbox" id="textinputbox" onChange={props.handleOnChangeTextarea}></textarea>
         </>
     )
 }

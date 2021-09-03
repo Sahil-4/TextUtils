@@ -17,3 +17,13 @@
     border-radius: 6px;
     text-align: center;
 }
+
+
+const countChars = () => {
+    // let el = document.getElementById('textinputbox');
+    // let count = el.nodeValue;
+    // console.log(count.length());
+    console.log(TotalChars);
+} 
+
+
